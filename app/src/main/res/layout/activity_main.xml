@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/download"
+    android:orientation="vertical"
+    app:layoutDescription="@xml/activity_main_scene"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvQuestion"
+        android:layout_width="411dp"
+        android:layout_height="144dp"
+        android:background="@color/y"
+        android:gravity="center"
+        android:text="@string/question"
+        android:textColor="@color/black"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/etAnswer"
+        android:layout_width="413dp"
+        android:layout_height="74dp"
+        android:autofillHints=""
+        android:background="@color/o"
+        android:ems="10"
+        android:gravity="center_horizontal|center_vertical"
+        android:hint="@string/answer"
+        android:inputType="numberDecimal|numberSigned"
+        android:textColorHint="@color/black"
+        android:textSize="20sp"
+        tools:layout_conversion_absoluteHeight="45dp"
+        tools:layout_conversion_absoluteWidth="411dp"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="136dp" />
+
+    <Button
+        android:id="@+id/btnSkip"
+        android:layout_width="100dp"
+        android:layout_height="65dp"
+        android:text="@string/skip"
+        android:translationX="50dp"
+        android:translationY="15dp"
+        tools:layout_conversion_absoluteHeight="48dp"
+        tools:layout_conversion_absoluteWidth="411dp"
+        tools:layout_editor_absoluteX="61dp"
+        tools:layout_editor_absoluteY="225dp" />
+
+    <Button
+        android:id="@+id/btnCheck"
+        android:layout_width="100dp"
+        android:layout_height="65dp"
+        android:text="@string/check"
+        android:translationX="250dp"
+        android:translationY="-50dp"
+        tools:layout_conversion_absoluteHeight="48dp"
+        tools:layout_conversion_absoluteWidth="411dp"
+        tools:layout_editor_absoluteX="259dp"
+        tools:layout_editor_absoluteY="225dp" />
+
+</LinearLayout>

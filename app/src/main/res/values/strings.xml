@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">😊 Math Game 😄</string>
+    <string name="question">Question</string>
+    <string name="answer">Type Your Answer Here!</string>
+    <string name="skip">Skip</string>
+    <string name="check">Check</string>
+    <string name="error">Error!!</string>
+</resources>
